@@ -13,4 +13,4 @@ Website I go to frequently:
 
 [Link to Assignment 2 Responses](christinebmartin/web-dev-hw/assignment-02/responses.txt)
 
-![Screenshot of responses](
+![Screenshot of responses](https://github.com/christinebmartin/web-dev-hw/blob/main/assignment-02/images/Assignment2_screenshot.png)
