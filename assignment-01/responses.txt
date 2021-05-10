@@ -1,0 +1,8 @@
+How is the web different than the internet?
+  The internet is a global network of networks while the web is a collection of informaiton which can be access via the internet.  In simple terms internet is the infrastructure and the web is the service on top of the infrastructure.
+Briefly describe how the internet works.
+  The internet allows computers to share information by sending and receiving data via packets
+What is a directory, and what is its relationship to files?
+  A directory is a folder, where a collection of files are stored.
+Why is using a VCS beneficial?
+  Because programming is a continuous process, programmers can store different versions, and associated documentation, in an organized manner.
