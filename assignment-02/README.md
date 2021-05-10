@@ -8,8 +8,7 @@ As I worked with my advisor on a degree path, multidisciplinary studies fit perf
 2.  Trouble shooting
 3.  Building a fantastic, functional website
 
-Website I go to frequently
-//https://www.umt.edu/my/
+Website I go to frequently:
+[My UM](//https://www.umt.edu/my/)
 
 Link to Assignment 2 Responses
-![Screenshot of Responses](C:\Users\christine.martin\Documents\GitHub\web-dev-hw\assignment-02\images\Assignment2_screenshot.png)
