@@ -1,0 +1,13 @@
+Briefly describe one way how data travels on the internet.
+  Data travels on the internet through packets.  Packets carry a maximum of 1,500 bytes.  The packets travel from one machine to another until finally reaching their desintation.
+What is the relationship between an IP address and the DNS?
+  An IP address is a numeric code assigned to a computer (ex. 198.1.1.0) to identify it on a network while DNS converts URLs to IP addresses, similar to a cross-reference table.
+What is a cookie?
+  Cookies are small pieces of data, text files, used to identify a computer.  For example, a computer user will search for an item on a website to purchase.  Cookies save that item and allow the website, or even Facebook, to make suggestions for other similar items.
+List the the three basic parts of a URL.
+  protocal
+    How the browser should communicate with a server
+  domain name
+    A unique reference that identifies a website on the internet
+  path
+    File or directory on the webserver
