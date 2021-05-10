@@ -11,4 +11,6 @@ As I worked with my advisor on a degree path, multidisciplinary studies fit perf
 Website I go to frequently:
 [My UM](//https://www.umt.edu/my/)
 
-Link to Assignment 2 Responses
+[Link to Assignment 2 Responses](christinebmartin/web-dev-hw/assignment-02/responses.txt)
+
+![Screenshot of responses](
