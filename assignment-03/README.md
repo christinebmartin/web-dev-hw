@@ -11,4 +11,4 @@ I most often use Chrome, but also use Safari when on my iPad
 Markup language is a human-readable computer language that uses tags to define elements within a document. HTML is a markup langaguge used for creating webpages.
 
 **An embedded image of your screenshot using its relative URL.**
-![](https://github.com/christinebmartin/web-dev-hw/blob/main/assignment-03/images/Assignment_screenshot.png)
+![](https://github.com/christinebmartin/web-dev-hw/blob/main/assignment-03/images/assignment3_screenshot.png)
