@@ -12,5 +12,5 @@ I used the GIT Module when I took Intro to Media Arts.  It makes updating much e
 When I first began using it I was confused about what the purpose of it was.  I learned rather quickly that it made the Git update process tremendously more efficient.  I find it quite easy to use now.
 
 **An embedded image of your screenshot using its relative URL.**
-![](https://github.com/christinebmartin/web-dev-hw/blob/main/assignment-04/images/assignment4_index_screenshot.png)
 ![](https://github.com/christinebmartin/web-dev-hw/blob/main/assignment-04/images/assignment4_about_screenshot.png)
+![](https://github.com/christinebmartin/web-dev-hw/blob/main/assignment-04/images/assignment4_index_screenshot.png)
