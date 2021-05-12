@@ -10,5 +10,5 @@
 
 **Free Response: Summarize your work cycle for this assignment.**
 Began the assignment by making a list
+
 ![My Rocketbook Checklist](images/assignment6_checklist.jpg)
-   
