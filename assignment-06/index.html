@@ -9,34 +9,83 @@
   </head>
 
     <body>
-      <address>
-        <p>2710 Alton Parkway, Irvine CA 92606</p>
-        <p>949-553-1082</p>
-        <p><a href="mailto:christine2.martin@umontana.edu">Email me!</a></p>
-      </address>
+      <img src="./images/CocoCurry.png"/>
 
-      <table style="background-color:lightgray;">
-        <tr>
-          <th>Company Information</th>
+      <table border="2">
+        <tr style="background-color:whitesmoke">
+          <th width="150">Company Information</th>
           <td colspan="2">CoCo Ichibanya</td>
         </tr>
         <tr>
-          <th>Hours of Operation</th>
-            <td>7 Days a Week</td>
-            <td>11am - 10pm PST</td>
-            <td>Closed Christmas and Thanksgiving</td>
+          <th>Address</th>
+          <td colspan="4">
+            <address>
+            <p>2710 Alton Parkway, Irvine CA 92606</p>
+            </address>
+        </tr>
         <tr>
           <th>Phone Number</th>
             <td colspan="2">
-              <address>949-553-1082</address>
+              <address>
+                <p>949-553-1082</p>
+              </address>
             </td>
         </tr>
         <tr>
+          <th>Hours of Operation</th>
+            <td rowspan="2">7 Days a Week
+            <p>11am - 10pm PST</p>
+            <p>Closed Christmas and Thanksgiving</p>
+          </td>
+          <tr></tr>
+        <tr>
           <th>Contact</th>
-            <td colspan="2">
-              <a href="mailto:cocoichiirvineHR@ichibanyausa.com"> Email CoCo Curry Irvine</a>
+            <td colspan="4">
+              <a href="mailto:cocoichiirvineHR@ichibanyausa.com"> Click Here To Book A Party</a>
             </td>
         </tr>
       </table>
-    </body>
+
+<!--Begin form-->
+      <form action="https://www.example.com/registration.php" method="post">
+        <p>We'd love to hear from you. Tell us about your last visit.
+          <br />
+          <br />
+<!--Radio button-->
+          How did you dine with us?:
+          <br />
+          <input type="radio" name="dining" value="Takeout" checked="checked" /> Takeout
+          <input type="radio" name="dining" value="Delivery" /> Delivery
+          <input type="radio" name="dining" value="DineIn" /> Dine In
+          <input type="radio" name="dining" value="UberEats" /> UberEats
+        </P>
+
+<!--Drop down menu-->
+        <p>Was this your first time visiting CoCo Ichibanya?</p>
+        <select name="firstVisit">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+
+<!--Multi-select dropw down menu-->
+        <p>Which location(s) have you visited?(to select more than one, hold the Control button while selecting locations)</p>
+        <select name="locations" size="4" multiple="multiple">
+          <option value="Irvine"> Irvine</option>
+          <option value="Torrance"> Torrance</option>
+          <option value="Brentwood"> Brentwood</option>
+          <option value="SanDiego"> San Diego</option>
+          <option value="Koreatown"> Koreatown</option>
+        </select>
+
+<!--Text Box for comments-->
+        <br />
+        <p>Please tell us what you loved about your visit:</p>
+        <textarea name="comments" cols="40" rows="10">How did we delight you?</textarea>
+        </p>
+
+<!--Submit Button-->
+      <input type="submit" name="submit" value="Submit" />
+
+    </form>
+  </body>
   </html>
