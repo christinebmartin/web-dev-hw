@@ -8,5 +8,5 @@
 
 **Summarize your work cycle for this assignment.**
 1. Outlined required elements of assignment in Rocketbook
-![My Rocketbook Checklist](images/Mart341_Assignment8)
+![My Rocketbook Checklist](images/Mart341_Assignment8.jpg)
 2. Add appropriate files and folders using Atom
