@@ -22,4 +22,7 @@ I used primary colors on my page as that was the trend during the 80s.
 - Blue,hex #0000ff;
 
 **Free Response:  Summarize your work cycle for this assignment**
+1. Wrote down all required elements of the assignment and created a sketch of what I think it would look like when complete
 ![My Rocketbook Checklist](images/Mart341_Assig9.jpg)
+2.  Completed research and downloaded images
+3. Researched flex containers as I wanted everything inline with color and contrast
