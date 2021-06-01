@@ -1,0 +1,44 @@
+/* Add style to header records */
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: Red;
+}
+
+/*Create a flex container with a background color */
+.flex-container {
+  display: flex;
+  background-color: purple;
+}
+
+/*Create flex containers with divs, set background color, font size, margins and padding */
+.flex-container >div {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*Create boarder around image */
+#memphis {
+  border-radius: 40%;
+}
+
+/*Change opacity of image */
+#dots {
+  opacity: 0.75;
+  height: 500px;
+}
+
+/*Style center flex box with font, color and size */
+#trend {
+  color: #0000ff;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*Add style to paragraph */
+#miami {
+  color: orange;
+  font-size: 25px;
+}
