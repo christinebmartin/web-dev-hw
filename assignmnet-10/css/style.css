@@ -1,0 +1,66 @@
+/*Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+.text {
+  line-height: : 5px;
+  font-size: 18px;
+  padding-left: 30px;
+  line-height: 1.6;
+}
+
+#quote:hover {
+  color: orange
+}
+
+/*Create Flex Container */
+.flex-container {
+  display: flex;
+  background-color: white;
+}
+
+.flex-container div {
+  background-color: white;
+  margin: 0px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+/*Style ID Info */
+#info {
+  font-style: italic;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/*Style ID Randy */
+#Randy {
+  font size: 30px;
+  font-weight:bold;
+}
+
+/*Style ID Publisher */
+#Publisher {
+  font-size: 15px;
+  font-weight: normal;
+  }
+
+.intro {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+#quote {
+  font-size: 39px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+
+.more {
+text-decoration: overline;
+}
