@@ -1,0 +1,84 @@
+/*Import font family */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+/*Add style to body and html */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Allura', cursive;
+}
+
+/*Add background image */
+.rocks {
+  background-image: url("../images/pinkrocks.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Add Background Text */
+.backgroundtext {
+  align-items:center;
+  color:white;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  left:0;
+  padding:5vw;
+  position:fixed;
+  right:0;
+  text-align:center;
+  top:0;
+}
+
+h1 {
+  font-weight:bold;
+  font-size: 100px;
+}
+
+/*Style Navigation Bar */
+/*Apply style to entire navigation bar */
+.menu {
+  float: left;
+  width: 200px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Apply style to menu items */
+.menu a {
+  background-color: lightpink;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+/* Apply style when hover over element */
+.menu a:hover {                   /*pseudo element */
+  background-color: mediumpurple;
+}
+
+/* Apply style to active page */
+.menu a.active {
+  background-color: deeppink;
+}
+
+.wewalk {
+  font-family: 'Roboto', sans-serif;
+float: left;
+  width: 120px;
+  margin: 0 0 0 20px;
+  padding: 15px;
+  /* border: 1px solid black;*/
+}
+
+.whywewalk {
+  box-sizing: border-box;
+  width: 43%;
+  border: 5px solid black;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 25pt;
+}
