@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif;
 
 .text {
   line-height: : 5px;
-  font-size: 18px;
+  font-size: 17px;
   padding-left: 30px;
   line-height: 1.6;
 }
@@ -61,6 +61,48 @@ font-family: 'Roboto', sans-serif;
   letter-spacing: -1px;
 }
 
+/*Apply style with line above text on class "more" */
 .more {
-text-decoration: overline;
+  text-decoration: overline;
+}
+
+/*Add amazing tool tip link to words using pseudo elements */
+/*Tooltip Container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+/*Add style to text in tooltip */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show tip when hover over */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*Add arrow to make tooltip box look like a speech bubble */
+.tooltip .tooltiptext::after {
+  content:"";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margein-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
