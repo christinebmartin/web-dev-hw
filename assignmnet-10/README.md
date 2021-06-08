@@ -23,3 +23,4 @@ If a browser does not support a font, having a fallback font will allow the site
 7. Found the text I wanted and pasted it in the index file
 8. Researched and experimented with various fonts, font styles, spacing, etc until I got the results I was looking for.
 9. Made sure all elements of the assignment were included
+10. Realized I didn't have a pseudo element other than the hover requirements, so researched cool things that can be done.  With this being exerpt having some medical text, thought it would be helful to add somethign so the reader can get some tips on a word.
