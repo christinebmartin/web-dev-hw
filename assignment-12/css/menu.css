@@ -1,0 +1,75 @@
+/*------------------------------
+| CSS For Navigation Links     |
+------------------------------*/
+
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Add style to active nav bar */
+.navbar a.active{
+  background-color: powderblue;
+  color: black;
+}
+
+/*Create the dropdown menu item */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/*Add style to drop down */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: dodgerblue;
+}
+
+/*Hide drop down content until hover */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Add style to links in drop down menu*/
+.dropdown-content a {
+  float: none;
+  color: navy;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*Add style to drop down links block when hovering */
+.dropdown-content a:hover {
+  background-color: silver;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

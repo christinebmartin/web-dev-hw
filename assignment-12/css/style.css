@@ -1,0 +1,49 @@
+/*------------------------------
+| CSS Style Sheet     |
+------------------------------*/
+
+.banner {
+text-align: center;
+background-color: black;
+}
+
+.placeholder {
+  padding: 100px;
+}
+
+/*Set style attributes of form */
+    fieldset {
+      width: 500px;
+  }
+
+    legend {
+      background-color: gray;
+      color: white;
+      padding: 5px 10px;
+    }
+
+    input {
+      margin: 5px;
+    }
+
+#social_media {
+  padding: .7em;
+    display: inline-block;
+    float: right;
+}
+
+#social_media :social_class {
+  margin: 0 8pxs;
+  }
+
+#social_media img {
+  width: 20px;
+  height: 20px;
+}
+
+.thisisus {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
