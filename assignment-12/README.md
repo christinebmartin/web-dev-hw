@@ -19,5 +19,8 @@ Must include picture of prior projects, and image of their logo
 1. Create appropriate files and folders in Atom
 2. Write down all requirements for the assignment in my ![My Rocketbook Checklist](images/Mart341_Assign12.jpg)
 3. Add 4 main elements and link to CSS in each page
-4. Add links to social media sites, including ticktok to all sites
+4. Add links to social media sites, including tiktok
+5. Downloaded social media icons to image folder
 5. Add Navigation bar to index
+6. Changed, and rechanged, the colors in the navbar
+7.  Messed something up, scrapped all the work I had done and started overflow
