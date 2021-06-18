@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+#header {
+  font-family: 'Satisfy', Times New Roman, cursive;
+  font-size: 40px;
+}
+body {
+font-family: Times New Roman, 'Satisfy', cursive;
+font-size: 20px;
+}
+
+
+/* Set Navigation bar attributes */
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+
+    .navbar a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+
+    .navbar a.active {
+      background-color: #6699ff;
+      color: white;
+      }
+
+/* Set background image */
+      body {
+        color: white;
+        background-color: gray;
+        font-size: 18px;
+        }
+/*set color of hyperlinks */
+      a:link {
+        color: blue;
+        }
+
+/* change color on links visited */
+      a:visited {
+        color: pink;
+        }
+
+/* change color when hover over link */
+      a:hover {
+        color: pink;
+                }
+
+#aboutMe {
+    color: white;
+    text-align: center;
+  }
+
+p.me {
+  padding-right: 550px;
+}
+
+#social_media {
+    padding: 12px;
+    display:inline;
+    float: left;
+}
+
+#social_media :social_class {
+  margin: 0 8pxs;
+  }
+
+#social_media img {
+  background-color: white;
+  width: 75px;
+  height: 75px;
+}
+
+/*Format Picture Gallery */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Change size based on screen size */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Change size based on screen size */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

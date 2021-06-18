@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FInal Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <meta name="description"
+    content="Final Project">
+    <meta name="author"
+    content="Christine Fiore">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<!-- link to style sheets -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+  </head>
+
+  <body>
+  <!--create navigation bar-->
+      <div class="navbar">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+
+  <!--add Class "active" to indicate which page user is on -->
+      <a class="active" href="./contact.html">Contact Me</a>
+      </div>
+
+      <br>
+
+<!--Social Media links/icons -->
+    <div>
+      <p>Visit, Follow, Watch Us:</p>
+    </div>
+
+    <div id="social_media">
+      <a href="https://www.facebook.com/christine.martin.mt/" class="social_class">
+        <img src="./images/facebook.png" title="Find us on Facebook" />
+      </a>
+      <a href="https://instagram.com" class="social_class">
+        <img src="./images/instagram.jpg" title="See us on Instagram" />
+      </a>
+      <a href="https://tiktok.com/@mtchristine" class="social_class">
+        <img src="./images/tiktok.png" title="Watch us on TikTOk" />
+      </a>
+    </div>
+
+  <!--Begin form-->
+      <form action="https://www.example.com/registration.php" method="post">
+
+        <fieldset>
+          <legend>Sign up for our newsletter to learn more about our adventures:</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <input type="submit" value="Submit">
+         </fieldset>
+       </form>
+
+      <p>I'd love to hear your story and how you've helped others.
+      <br><br>Send us an email with your warrior
+        <a href = "mailto:fioresinmt@gmail.com?subject = Feedback&body = Message">
+          Christine and Dave Fiore
+        </a>
+      </p>
+  </html>
