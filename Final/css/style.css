@@ -1,18 +1,23 @@
+/*Import font */
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+/*Style Header ID */
 #header {
   font-family: 'Satisfy', Times New Roman, cursive;
   font-size: 40px;
   text-align: center;
 }
 
+/*Apply style to entire body */
 body {
-font-family: Times New Roman, 'Satisfy', cursive;
-font-size: 20px;
-}
+  font-family: Times New Roman, 'Satisfy', cursive;
+  font-size: 20px;
+  color: white;
+  background-color: gray;
+  }
 
 
-/* Set Navigation bar attributes */
+/* Set Navigation bar style attributes */
     .navbar {
       background-color: #333;
       overflow: hidden;
@@ -38,12 +43,6 @@ font-size: 20px;
       color: white;
       }
 
-/* Set background image */
-      body {
-        color: white;
-        background-color: gray;
-        font-size: 18px;
-        }
 /*set color of hyperlinks */
       a:link {
         color: blue;
@@ -58,26 +57,30 @@ font-size: 20px;
       a:hover {
         color: pink;
                 }
-
+/*Add style to aboutme ID */
 #aboutMe {
     color: white;
     text-align: center;
   }
 
+/*Add style to paragraph me */
 p.me {
   padding-right: 550px;
 }
 
+/*Add style to social media ID */
 #social_media {
     padding: 12px;
     display:inline;
     float: left;
 }
 
+/*Add style to pseudoclass */
 #social_media :social_class {
   margin: 0 8pxs;
   }
 
+/*Add style to image */
 #social_media img {
   background-color: white;
   width: 75px;
