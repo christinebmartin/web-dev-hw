@@ -3,7 +3,9 @@
 #header {
   font-family: 'Satisfy', Times New Roman, cursive;
   font-size: 40px;
+  text-align: center;
 }
+
 body {
 font-family: Times New Roman, 'Satisfy', cursive;
 font-size: 20px;
